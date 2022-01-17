@@ -64,6 +64,7 @@ h1 {
     font-weight: 600;
     letter-spacing: -.01em;
     text-transform: none;
+    color: white;
 }
 
 .paragraph.content-paragraph {
