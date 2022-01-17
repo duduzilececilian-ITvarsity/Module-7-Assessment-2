@@ -1,0 +1,182 @@
+body {
+    background-image: -webkit-gradient(linear,left bottom,left top,color-stop(70%,transparent),to(transparent)),url("images/background.jpg");
+    background-position: 0 0,64% 50%;
+    background-size: auto,cover;
+    background-repeat: repeat,no-repeat;
+    background-attachment: scroll,fixed;
+
+}
+@media screen and (max-width: 991px){
+
+}
+
+.nav-menu-2 {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.nav-menu-2 {
+    display: flex;
+    margin-right: 100px;
+    margin-left: 100px;
+    float: none;
+    -webkit-box-orient: horizontal;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+}
+
+.nav-link-desktop.nav-link-contact {
+    position: relative;
+    left: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding-right: 0;
+    float: right;
+    align-self: stretch;
+    -webkit-box-flex: 1;
+    flex: 1;
+    text-align: right;
+}
+
+.link {
+    font-weight: 300;
+}
+
+.chevron, .chevron-small, .link {
+    color: #f0860c;
+    text-decoration: none;
+}
+
+
+.title {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+h1 {
+    margin-bottom: 10px;
+    font-size: 64px;
+    line-height: 1.0625;
+    font-weight: 600;
+    letter-spacing: -.01em;
+    text-transform: none;
+}
+
+.paragraph.content-paragraph {
+    margin-top: 25px;
+    color: #ccc;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 300;
+}
+
+.form-parent {
+    margin-top: 30px;
+    color: #fff;
+}
+
+.w-form {
+    margin: 0 0 15px;
+}
+
+.software-skill-inline, i {
+    color: #f0860c;
+}
+
+.software-skill-inline {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.fab, .far {
+    font-weight: 400;
+}
+.fab {
+    font-family: "Font Awesome 5 Brands";
+}
+
+.building-text img{
+    width: 50%;
+    height: 50%;
+    padding-left: 400px;
+    padding-top: 50px;
+}
+
+.main-button {
+    font-size: 15px;
+    padding: 12px 18px;
+    margin-right: 0;
+}
+
+.main-button {
+    background-color: rgb(13, 13, 99);
+    border: 2px solid white;
+    color: #f0860c;
+    font-weight: 700;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    padding: 13px 22px;
+    margin-right: 50px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    -webkit-transition: all .3s ease-in-out 0s;
+    transition: all .3s ease-in-out 0s;
+
+}
+.dev-icons {
+    padding-left: 0;
+    list-style: none;
+    font-size: 3rem;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+    padding-top: 80px;
+
+}
+
+.inline-parent h2{
+    color: white;
+}
+
+.title-parent h1{
+    color: white;
+}
+
+.title-parent h3{
+    color: white;
+}
+
+.title-parent h4{
+    color: yellow;
+}
+
+.inline-parent title h1{
+    color: white;
+}
+
+.skills-heading {
+    color: white;
+}
+
+.title{
+    color: white;
+    padding-top: 50px;
+}
+
+.dudu{
+    align-items: center;
+}
+
+

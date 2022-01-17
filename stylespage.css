@@ -1,0 +1,113 @@
+#container {
+    transform: scale(0.8, 0.8) translate(0, 700px);
+}
+#ai img {
+    position: absolute;
+    width: 1200px;
+    height: 1200px;
+    bottom: -512px;
+    left: 50%;
+    margin-left: -602px;
+    border-radius: 50%;
+    animation: spin-left 14s linear infinite;
+    -webkit-animation: spin-left 14s linear infinite;
+}
+
+#books img {
+    position: absolute;
+    width: 1000px;
+    height: 1000px;
+    bottom: -441px;
+    left: 50%;
+    margin-left: -531px;
+    border-radius: 50%;
+    animation: spin-left 15s linear infinite;
+    -webkit-animation: spin-left 15s linear infinite;
+}
+
+#bloging img {
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    bottom: -348px;
+    left: 50%;
+    margin-left: -438px;
+    border-radius: 50%;
+    animation: spin-left 13s linear infinite;
+    -webkit-animation: spin-left 13s linear infinite;
+}
+
+#tech-hero img {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    bottom: -238px;
+    left: 50%;
+    margin-left: -328px;
+    border-radius: 50%;
+    animation: spin-left 10s linear infinite;
+    -webkit-animation: spin-left 10s linear infinite;
+}
+
+#music img {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    bottom: -164px;
+    left: 50%;
+    margin-left: -254px;
+    border-radius: 50%;
+    animation: spin-left 4s linear infinite;
+    -webkit-animation: spin-left 4s linear infinite;
+}
+
+#w3schools img {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    bottom: -115px;
+    left: 50%;
+    margin-left: -205px;
+    border-radius: 50%;
+    animation: spin-left 5s linear infinite;
+    -webkit-animation: spin-left 5s linear infinite;
+}
+
+.label-box{
+    position: absolute;
+    width: 1000px;
+    left: 70%;
+    margin-left: -75px;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+
+.label-box a{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+.label-box a:visited{
+    color: white;
+}
+
+.summary img{
+    align-items: center;
+}
+
+@keyframes spin-left{
+    100%{
+        transform: rotate(-360deg);
+        -webkit-transform: rotate(-360deg);
+    }
+}
+
+@keyframes spin-right{
+    100%{
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+    }
+}
